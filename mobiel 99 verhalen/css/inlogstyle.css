@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    background-color: #E6E6E9;
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+
+article p {
+    margin-left: 1em;
+}
+
+section h1 {
+    margin-left: 1em;
+    color: #003082;
+    margin-bottom: 0.5em;
+}
+
+header {
+    border-bottom: solid gray 1px;
+    box-shadow: 0 4px 6px -6px #2222;
+    box-shadow: 0 0.125rem 0 0 rgba(7, 7, 33, .15);
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a > img {
+    margin-left: 0.7em;
+    margin-top: 0.5em;
+}
+
+fieldset label {
+    margin-left: 0.9em;
+    color: #003082;
+}
+
+
+
+footer {
+    background-color: white;
+    border-bottom-color: grey;
+    margin-top: 0em;
+    padding-top: 1em;
+    color: black;
+    font-family: 'PT sans';
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-width: 70em) {
+    main {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 40em) {
+
+    main {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 20em) {
+
+    form input {
+        background-color: #F3F3F4;
+        width: 100%;
+        color: #0079D3;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        text-align: center;
+        width: 90%;
+        height: 2em;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+        margin-left: 1em;
+        padding: 0.5em;
+    }
+    form input:hover {
+        background-color: white;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: 'PT Sans', sans-serif;
+        text-align: center;
+    }
+    fieldset {
+        border: none;
+        text-align: left;
+        width: auto;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #FFC917;
+    }
+    fieldset p {
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #003082;
+    }
+
+    fieldset p:hover {
+        color: #1F84C8;
+    }
+    fieldset button {
+        margin-top: 1.5em;
+        float: right;
+        width: 12em;
+        height: 3em;
+        border: none;
+        background-color: #003082;
+        color: white;
+        font-size: 0.8em;
+        margin-left: 1em;
+    }
+
+
+
+}

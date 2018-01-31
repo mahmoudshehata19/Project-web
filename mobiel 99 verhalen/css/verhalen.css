@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin: 0;
+    position: relative;
+}
+
+button.addBtn,
+button.dlBtn {
+    padding: 0;
+    width: 230px;
+    background-color: white;
+}
+
+header {
+    border-bottom: solid gray 1px;
+    box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 0.125rem 0 0 rgba(7, 7, 33, .15);
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a > img {
+    margin-left: 0.7em;
+    margin-top: 0.5em;
+}
+
+
+.desktop {
+    width: 100%;
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    height: 12em;
+    margin-bottom: 1em;
+}
+
+section img {
+    width: 12em;
+    height: 12em;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section p {
+    font-size: 25px;
+}
+
+footer {
+    background-color: white;
+    border-bottom-color: grey;
+    margin-top: 0em;
+    padding-top: 1.1em;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+@media (min-width: 20em) {
+
+    article p {
+        font-size: 10px;
+    }
+    fieldset h3 {
+        color: #003082;
+        font-size: 1.5em;
+        line-height: 1.875em;
+        margin-bottom: 1rem;
+        font-weight: normal;
+    }
+    form input {
+        background-color: #F3F3F4;
+        color: #0079D3;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        text-align: center;
+        width: 90%;
+        height: 2em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        padding: 0.5em;
+    }
+    form input:hover {
+        background-color: white;
+    }
+
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobiel {
+        display: block;
+        width: 100%;
+    }
+    form {
+        display: flex;
+        font-family: 'PT Sans', sans-serif;
+        text-align: left;
+    }
+    fieldset {
+        display: flex;
+        justify-content: space-around;
+        border: none;
+        text-align: left;
+        width: 100%;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #FFC917;
+    }
+    fieldset label {
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: #003082;
+    }
+
+    fieldset p:hover {
+        color: #1F84C8;
+    }
+    fieldset button {
+        margin-top: 1.5em;
+        width: 13em;
+        height: 3em;
+        border: none;
+        background-color: #005CA0;
+        color: white;
+        font-size: 0.8em;
+        margin-left: 0em;
+    }
+
+
+    div button {
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 7.5em;
+        width: 100%;
+        border: none;
+
+    }
+
+
+}
+
+@media (min-width: 40em) {
+    article p {
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 1em;
+    }
+    fieldset h3 {
+        color: #003082;
+        font-size: 1.5em;
+        line-height: 1.875em;
+        margin-bottom: 1rem;
+        font-weight: normal;
+    }
+    section img {
+        margin-left: 2.1em;
+    }
+
+    .tablet {
+        display: block;
+        width: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobiel {
+        display: none;
+    }
+
+    div button {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 2.8em;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        width: 20%;
+        height: 3em;
+        top: 10em;
+        right: 0;
+        color: white;
+        background-color: #005CA0;
+        border: none;
+
+    }
+    fieldset {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin-left: 2em;
+    }
+
+}
+
+@media (min-width: 70em) {
+
+    article p {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 1em;
+    }
+    .desktop {
+        width: 100%;
+        display: block;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .mobiel {
+        display: none;
+    }
+    fieldset h3 {
+        color: #003082;
+        font-size: 1.5em;
+        line-height: 1.875em;
+        margin-bottom: 1rem;
+        font-weight: normal;
+    }
+    section img {
+        margin-left: 2.1em;
+    }
+    div button {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 2.8em;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        width: 20%;
+        height: 3em;
+        top: 10em;
+        right: 0;
+        color: white;
+        background-color: #005CA0;
+        border: none;
+
+    }
+    form input {
+        background-color: #F3F3F4;
+        color: #0079D3;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        text-align: center;
+        width: 60%;
+        height: 2em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        padding: 0.5em;
+    }
+    fieldset {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin-left: 2em;
+    }
+}
